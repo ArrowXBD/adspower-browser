@@ -55,7 +55,10 @@ Codex:
 ```bash
 codex mcp add --env PORT="50325" --env API_KEY="your_api_key" adspower-local-api -- npx -y local-api-mcp-typescript
 ```
-
+OpenClaw:
+```bash
+openclaw mcp set adspower-local-api '{"command":"npx","args":["-y","local-api-mcp-typescript"],"env":{"PORT":"50325","API_KEY":"your_api_key"}}'
+```
 Cursor: Go to Cursor Settings -> MCP -> Add New MCP Server, and then paste the following content:
 ```json
 {
